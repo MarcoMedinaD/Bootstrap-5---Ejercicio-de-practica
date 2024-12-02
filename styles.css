@@ -1,0 +1,56 @@
+/* Fondo del sitio */
+body {
+    background-color: #FFEBD4; 
+    font-family: Arial, sans-serif;
+    color: #333; /
+   
+}
+
+/* Encabezado */
+nav {
+    background-color: #FFC6C6; 
+   
+}
+
+/* Color del nav */
+nav .navbar-brand {
+    color: #F0A8D0; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+ 
+/* Color de los controles de carrusel  */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #F0A8D0; /* Color más oscuro */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* Botones principales */
+.btn-primary {
+    background-color: #FFC6C6 !important; 
+    border-color: #F7B5CA !important;    
+    color: #F0A8D0 !important;         
+    border-radius: 8px !important;    
+    padding: 0.5rem 1rem !important;    
+    font-size: 1rem !important;         
+    font-weight: bold !important;       
+    text-decoration: none !important;   
+}
+
+/* Hover: Cambia el color al pasar el mouse */
+.btn-primary:hover {
+    background-color: #F7B5CA !important; 
+    border-color: #F0A8D0 !important;    
+    color: #FFF !important;             
+}
+
+/* Active: Cambia el color al hacer clic */
+.btn-primary:active {
+    background-color: #F0A8D0 !important; 
+    border-color: #FFEBD4 !important;    
+    color: #FFEBD4 !important;          
+}
